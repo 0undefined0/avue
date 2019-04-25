@@ -31,6 +31,8 @@ import Tree from './tree/';
 import FormDetail from './form-detail/';
 import TableTree from './table-tree/';
 import DateGroup from './date-group/';
+import MultiSelect from "./multi-select/";
+import MultiOption from "./multi-option/";
 import { validatenull } from './utils/validate'
 import directive from './directive/';
 import axios from 'axios';
@@ -67,7 +69,9 @@ const components = [
     DataBox,
     TableTree,
     DateGroup,
-    Search
+    Search,
+    MultiSelect,
+    MultiOption
 ];
 
 function install(Vue, opts = {}) {
@@ -121,5 +125,7 @@ export default {
     DataBox,
     TableTree,
     Search,
-    DateGroup
+    DateGroup,
+    MultiSelect,
+    MultiOption
 };

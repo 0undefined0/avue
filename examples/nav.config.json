@@ -238,6 +238,10 @@
             "title": "选项卡"
           },
           {
+            "path": "/test",
+            "title": "测试"
+          },
+          {
             "path": "/steps",
             "title": "步骤条"
           },
