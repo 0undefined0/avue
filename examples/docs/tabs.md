@@ -62,7 +62,7 @@ export default {
                   }]
               }
           }, {
-              label: '微信信息',
+              label: '测试',
               prop: 'weixin',
               icon: 'el-icon-picture-outline',
               option: {
@@ -102,7 +102,7 @@ export default {
      change (item) {
        this.type = item.prop
        this.item = item;
-       this.$message.success('当前选项卡对象'+JSON.stringify(item))
+       this.$message.success('测试'+JSON.stringify(item))
      },
     }
 }
@@ -116,7 +116,7 @@ export default {
 
 ### 例子
 
-:::demo 
+:::demo
 
 ```html
 <avue-tabs :option="option" @change="change">
@@ -273,7 +273,7 @@ export default {
 
 | 方法名 | 说明	 | 参数 |
 | ------ | ----------------- |----------- |
-|changeTabs|传入标签的序号即可切换|active|	
+|changeTabs|传入标签的序号即可切换|active|
 
 ### Avue-tabs Scoped Slot
 
